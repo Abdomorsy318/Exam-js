@@ -15,17 +15,17 @@ $(".open-close-icon").on("click", function () {
 });
 
 $("#Categories").on("click", function () {
-  location.href = "./category.html";
+  location.href = "./Exam-js/category.html";
 });
 $("#Area").on("click", function () {
-  location.href = "./area.html";
+  location.href = "./Exam-js/area.html";
 });
 
 $("#Ingredients").on("click", function () {
-  location.href = "./Ingredients.html";
+  location.href = "./Exam-js/Ingredients.html";
 });
 $("#Search").on("click", function () {
-  location.href = "./search.html.html";
+  location.href = "./Exam-js/search.html.html";
 });
 
 let nameMeal, letter;

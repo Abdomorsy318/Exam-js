@@ -17,13 +17,13 @@ $(".open-close-icon").on("click", function () {
   $(".open-close-icon").toggleClass("fa-align-justify").toggleClass("fa-x");
 });
 $("#Categories").on("click", function () {
-  location.href = "./category.html";
+  location.href = "./Exam-js/category.html";
 });
 $("#Area").on("click", function () {
-  location.href = "./area.html";
+  location.href = "./Exam-js/area.html";
 });
 $("#Ingredients").on("click", function () {
-  location.href = "./Ingredients.html";
+  location.href = "./Exam-js/Ingredients.html";
 });
 async function fetchApi(api) {
   const respons = await fetch(api);
