@@ -55,7 +55,7 @@ display()
 
 function displayMealDetails(area){
     
-        location.href = `../meals-area.html?area=${area}`
+        location.href = `./meals-area.html?area=${area}`
         // console.log("ID")
 }
 

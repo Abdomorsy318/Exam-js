@@ -56,7 +56,7 @@ display()
 
 function displayMealDetails(Ingredient){
     
-        location.href = `../meals-ingred.html?Ingredient=${Ingredient}`
+        location.href = `./meals-ingred.html?Ingredient=${Ingredient}`
         // console.log("ID")
 }
 

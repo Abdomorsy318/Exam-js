@@ -57,7 +57,7 @@ display()
 
 function displayMealDetails(category){
     
-        location.href = `../meal-category.html?cate=${category}`
+        location.href = `./meal-category.html?cate=${category}`
         // console.log(id)
 }
 

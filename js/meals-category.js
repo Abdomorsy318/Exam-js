@@ -59,7 +59,7 @@ display()
 
 function displayMealDetails(ID){
     
-        location.href = `../details-meal.html?id=${ID}`
+        location.href = `./details-meal.html?id=${ID}`
         // console.log(ID)
 }
 
