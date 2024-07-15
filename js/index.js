@@ -15,14 +15,14 @@ $(".open-close-icon").on("click", function () {
 });
 
 $("#Categories").on("click", function () {
-  location.href = "./Exam-js/category.html";
+  location.href = "./category.html";
 });
 $("#Area").on("click", function () {
-  location.href = "./Exam-js/area.html";
+  location.href = "./area.html";
 });
 
 $("#Ingredients").on("click", function () {
-  location.href = "./Exam-js/Ingredients.html";
+  location.href = "./Ingredients.html";
 });
 async function fetchApi(api) {
   const respons = await fetch(api);
