@@ -15,7 +15,7 @@ $(".open-close-icon").on("click", function () {
 });
 
 $("#Categories").on("click", function () {
-  location.href = "category.html";
+  location.href = "./category.html";
 });
 $("#Area").on("click", function () {
   location.href = "area.html";
