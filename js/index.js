@@ -51,6 +51,6 @@ async function display() {
 
 display();
 
-function displayMealDetails() {
-  location.href = `details-meal.html`;
+function displayMealDetails(id) {
+  location.href = `../details-meal.html?id=${id}`;
 }
