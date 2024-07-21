@@ -52,13 +52,5 @@ async function display() {
 display();
 
 function displayMealDetails(ID) {
-  location.href = `../details-meal.html?id=${ID}`;
-  // console.log(ID)
+  location.href = `details-meal.html?id=${ID}`;
 }
-
-// function mealDetails(){
-//     $(".meal").on("click" , function(){
-//         location.replace("../details-meal.html")
-//         console.log("jshdjh")
-//     })
-// }
