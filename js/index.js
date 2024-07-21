@@ -36,14 +36,14 @@ async function display() {
   let box = ``;
   for (let i = 0; i < data.length; i++) {
     box += `
-            // <div class="col-12 col-md-6 col-lg-4 col-xl-3">
-            //     <div class="mb-4 position-relative overflow-hidden meal" onclick="displayMealDetails(${data[i].idMeal})" >
-            //         <img src=${data[i].strMealThumb} class="w-100 rounded-3" alt="">
-            //         <div class="layer-img rounded-3 d-flex align-items-center p-2">
-            //             <h2>${data[i].strMeal}</h2>
-            //         </div>
-            //     </div>
-            // </div>
+            <div class="col-12 col-md-6 col-lg-4 col-xl-3">
+                <div class="mb-4 position-relative overflow-hidden meal" onclick="displayMealDetails(${data[i].idMeal})" >
+                    <img src=${data[i].strMealThumb} class="w-100 rounded-3" alt="">
+                    <div class="layer-img rounded-3 d-flex align-items-center p-2">
+                        <h2>${data[i].strMeal}</h2>
+                    </div>
+                </div>
+            </div>
         `;
   }
   document.getElementById("row").innerHTML = box;
@@ -51,6 +51,7 @@ async function display() {
 
 display();
 
-function displayMealDetails(id) {
-  location.href = `../details-meal.html?id=${id}`;
+function displayMealDetails() {
+  // location.href = `../details-meal.html?id=${id}`;
+  console.log("hello");
 }
