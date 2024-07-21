@@ -52,5 +52,5 @@ async function display() {
 display();
 
 function displayMealDetails() {
-  location.href = `category.html`;
+  location.href = ``;
 }
